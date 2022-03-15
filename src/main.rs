@@ -25,9 +25,10 @@ impl State {
         Self{
             map: map_builder.map,
             player:Player::new(
-                Point::new(map_builder.player_start),
+                map_builder.player_start
             ),
         }
+        
     }
 }
 
